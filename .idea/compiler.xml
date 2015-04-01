@@ -26,5 +26,8 @@
         <module name="PetCare" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="PetCare" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>

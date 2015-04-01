@@ -28,7 +28,7 @@
       </configuration>
     </facet>
   </component>
-  <component name="NewModuleRootManager" inherit-compiler-output="false">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_5" inherit-compiler-output="false">
     <output url="file://$MODULE_DIR$/target/classes" />
     <output-test url="file://$MODULE_DIR$/target/test-classes" />
     <content url="file://$MODULE_DIR$">
@@ -42,5 +42,6 @@
     <orderEntry type="library" scope="PROVIDED" name="JBoss 8.2.0.Final" level="application_server_libraries" />
     <orderEntry type="library" name="Hibernate 4.2.2-4.2.2" level="project" />
     <orderEntry type="library" name="Jersey-2.2" level="project" />
+    <orderEntry type="library" name="Maven: org.projectlombok:lombok:1.16.2" level="project" />
   </component>
 </module>

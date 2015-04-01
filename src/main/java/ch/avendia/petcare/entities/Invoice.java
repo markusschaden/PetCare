@@ -1,15 +1,50 @@
 package ch.avendia.petcare.entities;
 
+import lombok.Data;
+
+import javax.persistence.*;
+import java.io.Serializable;
+import java.util.Date;
+
 /**
  * Created by Markus on 01.04.2015.
  */
-public class Invoice extends BaseTenant {
+@Entity
+@Data
+public class Invoice extends BaseTenant implements Serializable {
 
-    private ServiceExection[] services;
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    private Long id;
+
+    //private ServiceExection[] services;
+
+    @ManyToOne
     private Client client;
-    private Pet[] pets;
+
+    @OneToMany(mappedBy = "invoice")
     private Payment[] payments;
+
+    @OneToMany(mappedBy = "invoice")
     private Facility[] facilities;
+
+    @Enumerated(EnumType.STRING)
     private InvoiceStatus invoiceStatus;
+
+//    private Pet[] pets;
+
+    @ManyToMany(targetEntity = Discount.class, cascade = {CascadeType.PERSIST, CascadeType.MERGE})
+    @JoinTable(name = "InvoiceDiscount", joinColumns = @JoinColumn(name = "Invoice_ID"), inverseJoinColumns = @JoinColumn(name = "Discount_ID"))
     private Discount[] discounts;
+
+    private String invoiceId;
+
+    @Temporal(TemporalType.TIMESTAMP)
+    private Date issued;
+
+    @Temporal(TemporalType.TIMESTAMP)
+    private Date paymentDue;
+
+    private long tax;
+
 }

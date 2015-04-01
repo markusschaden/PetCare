@@ -11,16 +11,16 @@ import java.util.Date;
  */
 @Entity
 @Data
-public class CompanySettings implements Serializable {
+public class Session implements Serializable {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
 
-    @Enumerated(EnumType.STRING)
-    private ColorSchema colorSchema;
-    @Temporal(TemporalType.TIMESTAMP)
-    private Date activeTill;
-    private boolean isTrial;
-    private long tax;
+    @ManyToOne
+    private Account account;
+
+    private String sessionId;
+
+    private Date validTill;
 }
