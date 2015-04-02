@@ -10,7 +10,7 @@ import java.io.Serializable;
  */
 @Entity
 @Data
-public class Animal implements Serializable {
+public class Animal extends DatabaseEntity {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)

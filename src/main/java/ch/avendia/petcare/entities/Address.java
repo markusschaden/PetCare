@@ -5,6 +5,7 @@ import lombok.Data;
 import javax.persistence.Access;
 import javax.persistence.AccessType;
 import javax.persistence.Embeddable;
+import javax.persistence.ManyToOne;
 import java.io.Serializable;
 
 /**
@@ -13,7 +14,9 @@ import java.io.Serializable;
 @Embeddable
 @Access(AccessType.PROPERTY)
 @Data
-public class Address implements Serializable {
+public class Address extends DatabaseEntity {
+
+    @ManyToOne
     private Country country;
     private String village;
     private String zipCode;

@@ -11,11 +11,11 @@ import java.util.Date;
  */
 @Entity
 @Data
-public class Client implements Serializable {
+public class Client extends Account {
 
-    @Id
+    /*@Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private Long id;
+    private Long id;*/
 
     private String name;
     private String firstname;
@@ -29,8 +29,8 @@ public class Client implements Serializable {
     @Temporal(TemporalType.TIMESTAMP)
     private Date birthday;
 
-    @OneToOne(mappedBy = "client")
-    private Account account;
+    /*@OneToOne(mappedBy = "client")
+    private Account account;*/
 
     @OneToMany(mappedBy = "owner")
     private Pet[] pets;

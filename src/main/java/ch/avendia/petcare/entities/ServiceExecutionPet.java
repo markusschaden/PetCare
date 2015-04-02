@@ -11,7 +11,7 @@ import java.io.Serializable;
  */
 @Entity
 @Data
-public class ServiceExecutionPet extends ServiceExection implements Serializable {
+public class ServiceExecutionPet extends ServiceExecution {
 
     @ManyToOne
     private Pet pet;

@@ -12,11 +12,7 @@ import java.util.Date;
 @Entity
 @Inheritance(strategy=InheritanceType.JOINED)
 @Data
-public abstract class ServiceExection implements Serializable {
-
-    @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    private Long id;
+public abstract class ServiceExecution extends DatabaseTenantEntity {
 
     @ManyToOne
     private ServiceDefinition serviceDefinition;

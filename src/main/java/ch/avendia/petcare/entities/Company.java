@@ -10,11 +10,7 @@ import java.io.Serializable;
  */
 @Entity
 @Data
-public class Company implements Serializable {
-
-    @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    private Long id;
+public class Company extends DatabaseEntity {
 
     private String name;
     private String phoneNumber;
@@ -23,7 +19,7 @@ public class Company implements Serializable {
     private Address address;
 
     @OneToOne(cascade = CascadeType.ALL)
-    private TransferData transferData;
+    private BankTransferData transferData;
 
     @ManyToMany(
             cascade = {CascadeType.PERSIST, CascadeType.MERGE},

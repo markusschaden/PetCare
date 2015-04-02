@@ -11,7 +11,7 @@ import java.io.Serializable;
  */
 @Entity
 @Data
-public class ServiceReservationPet extends ServiceReservation implements Serializable {
+public class ServiceReservationPet extends ServiceReservation {
 
     @ManyToOne
     private Pet pet;

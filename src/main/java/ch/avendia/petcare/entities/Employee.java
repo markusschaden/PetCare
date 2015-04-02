@@ -10,11 +10,7 @@ import java.io.Serializable;
  */
 @Entity
 @Data
-public class Employee extends BaseTenant implements Serializable {
-
-    @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    private Long id;
+public class Employee extends Account {
 
     @Enumerated(EnumType.STRING)
     private Gender gender;
@@ -25,11 +21,13 @@ public class Employee extends BaseTenant implements Serializable {
     private String email;
     private String birthday;
 
+    private Company tenant;
+
     @Enumerated(EnumType.STRING)
     private Right[] rights;
 
-    @OneToOne(mappedBy = "employee")
-    private Account account;
+    /*@OneToOne(mappedBy = "employee")
+    private Account account;*/
 
     private boolean isDisabled;
 }

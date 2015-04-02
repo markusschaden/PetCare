@@ -12,7 +12,7 @@ import java.io.Serializable;
  * Created by Markus on 01.04.2015.
  */
 @Data
-public class Food implements Serializable {
+public class Food extends DatabaseEntity {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)

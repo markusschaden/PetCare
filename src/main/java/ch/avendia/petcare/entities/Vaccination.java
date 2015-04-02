@@ -11,11 +11,7 @@ import java.util.Date;
  */
 @Entity
 @Data
-public class Vaccination extends BaseTenant implements Serializable {
-
-    @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    private Long id;
+public class Vaccination extends DatabaseEntity {
 
     @ManyToOne
     private VaccinationDefinition vaccinationDefinition;

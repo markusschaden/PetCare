@@ -10,7 +10,7 @@ import java.io.Serializable;
  */
 @Entity
 @Data
-public class Allergie implements Serializable {
+public class Allergie extends DatabaseEntity {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)

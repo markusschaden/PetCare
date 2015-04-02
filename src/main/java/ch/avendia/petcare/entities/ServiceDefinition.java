@@ -10,11 +10,7 @@ import java.io.Serializable;
  */
 @Entity
 @Data
-public class ServiceDefinition extends BaseTenant implements Serializable {
-
-    @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    private Long id;
+public class ServiceDefinition extends DatabaseTenantEntity {
 
     private boolean isDisabled;
     private String title;

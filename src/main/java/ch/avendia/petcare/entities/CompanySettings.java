@@ -11,11 +11,7 @@ import java.util.Date;
  */
 @Entity
 @Data
-public class CompanySettings implements Serializable {
-
-    @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    private Long id;
+public class CompanySettings extends DatabaseEntity {
 
     @Enumerated(EnumType.STRING)
     private ColorSchema colorSchema;

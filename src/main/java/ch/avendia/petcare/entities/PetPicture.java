@@ -11,11 +11,7 @@ import java.util.Date;
  */
 @Entity
 @Data
-public class PetPicture implements Serializable {
-
-    @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    private Long id;
+public class PetPicture extends DatabaseEntity {
 
     private String description;
     private String imageUrl;

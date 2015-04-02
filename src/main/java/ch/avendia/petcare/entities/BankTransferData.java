@@ -10,7 +10,7 @@ import java.io.Serializable;
  */
 @Entity
 @Data
-public class TransferData implements Serializable {
+public class BankTransferData extends DatabaseEntity {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)

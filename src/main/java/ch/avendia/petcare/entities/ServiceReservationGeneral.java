@@ -11,7 +11,7 @@ import java.io.Serializable;
  */
 @Entity
 @Data
-public class ServiceReservationGeneral extends ServiceReservation implements Serializable {
+public class ServiceReservationGeneral extends ServiceReservation {
 
     @ManyToOne
     private ServiceDefinition serviceDefinition;

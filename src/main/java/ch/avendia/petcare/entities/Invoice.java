@@ -11,11 +11,7 @@ import java.util.Date;
  */
 @Entity
 @Data
-public class Invoice extends BaseTenant implements Serializable {
-
-    @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    private Long id;
+public class Invoice extends DatabaseTenantEntity {
 
     //private ServiceExection[] services;
 

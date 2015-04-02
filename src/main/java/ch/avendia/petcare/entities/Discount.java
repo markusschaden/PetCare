@@ -10,11 +10,7 @@ import java.io.Serializable;
  */
 @Entity
 @Data
-public class Discount extends BaseTenant implements Serializable {
-
-    @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    private Long id;
+public class Discount extends DatabaseTenantEntity {
 
     private String name;
     private boolean inPercent;

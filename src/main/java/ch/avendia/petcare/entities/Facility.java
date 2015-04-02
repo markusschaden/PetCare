@@ -3,18 +3,14 @@ package ch.avendia.petcare.entities;
 import lombok.Data;
 
 import javax.persistence.*;
-import java.io.Serializable;
+import java.util.Date;
 
 /**
  * Created by Markus on 01.04.2015.
  */
 @Entity
 @Data
-public class Facility extends BaseTenant implements Serializable {
-
-    @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    private Long id;
+public class Facility extends DatabaseTenantEntity {
 
     @ManyToOne
     private Client client;
@@ -27,7 +23,7 @@ public class Facility extends BaseTenant implements Serializable {
     private ServiceReservation[] serviceReservations;
 
     @OneToMany(mappedBy = "facility")
-    private ServiceExection[] serviceExections;
+    private ServiceExecution[] serviceExecutions;
 
     @OneToOne(cascade = CascadeType.ALL)
     private Reservation reservation;
@@ -37,5 +33,11 @@ public class Facility extends BaseTenant implements Serializable {
 
     @ManyToOne
     private Invoice invoice;
+
+    @Temporal(TemporalType.TIMESTAMP)
+    private Date checkIn;
+
+    @Temporal(TemporalType.TIMESTAMP)
+    private Date checkOut;
 
 }

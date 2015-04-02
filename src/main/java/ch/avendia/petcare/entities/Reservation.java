@@ -11,11 +11,7 @@ import java.util.Date;
  */
 @Entity
 @Data
-public class Reservation extends BaseTenant implements Serializable {
-
-    @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    private Long id;
+public class Reservation extends DatabaseTenantEntity {
 
     @ManyToOne
     private Client client;
@@ -31,5 +27,8 @@ public class Reservation extends BaseTenant implements Serializable {
     private ReservationStatus reservationStatus;
 
     @Temporal(TemporalType.TIMESTAMP)
-    private Date time;
+    private Date checkIn;
+
+    @Temporal(TemporalType.TIMESTAMP)
+    private Date checkOut;
 }

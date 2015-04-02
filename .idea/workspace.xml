@@ -2,18 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7095ec8a-3190-4328-9ec2-c8981b12948f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/Gender.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_16_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/Session.java" />
-      <change type="DELETED" beforePath="C:\Users\Markus\Documents\Avendia\PetCare\src\main\java\ch\avendia\petcare\entities\OpeningHour.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Markus\Documents\Avendia\PetCare\src\main\java\ch\avendia\petcare\entities\OpeningHours.java" afterPath="" />
-      <change type="MOVED" beforePath="C:\Users\Markus\Documents\Avendia\PetCare\src\main\java\ch\avendia\petcare\entities\Contract.java" afterPath="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/Food.java" />
-      <change type="MOVED" beforePath="C:\Users\Markus\Documents\Avendia\PetCare\src\main\java\ch\avendia\petcare\entities\Position.java" afterPath="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/FacilityStatus.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/framework/security/AuthenticationManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/business/BaseBusiness.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/business/BaseCompanyBusiness.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/business/BaseSessionBusiness.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/business/BaseUserBusiness.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/datastore/DataStoreService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/DatabaseEntity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/datastore/DatabaseManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/datastore/hibernate/DatabaseManagerImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/DatabaseTenantEntity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/Event.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/datastore/hibernate/HibernateService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/framework/security/session/SessionFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/framework/security/session/SessionManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/framework/security/session/SessionService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/framework/security/session/SessionStore.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/framework/security/session/datastore/hibernate/SessionStoreImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/framework/security/session/datastore/memcache/SessionStoreImpl.java" />
+      <change type="DELETED" beforePath="C:\Users\Markus\Documents\Avendia\PetCare\src\main\java\ch\avendia\petcare\entities\Weekday.java" afterPath="" />
+      <change type="MOVED" beforePath="C:\Users\Markus\Documents\Avendia\PetCare\src\main\java\ch\avendia\petcare\entities\ServiceExection.java" afterPath="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/ServiceExecution.java" />
+      <change type="MOVED" beforePath="C:\Users\Markus\Documents\Avendia\PetCare\src\main\java\ch\avendia\petcare\entities\TransferData.java" afterPath="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/BankTransferData.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/Account.java" afterPath="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/Account.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/Address.java" afterPath="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/Address.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/Allergie.java" afterPath="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/Allergie.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/Animal.java" afterPath="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/Animal.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/BaseTenant.java" afterPath="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/BaseTenant.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/Client.java" afterPath="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/Client.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/Company.java" afterPath="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/Company.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/CompanySettings.java" afterPath="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/CompanySettings.java" />
@@ -21,26 +34,22 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/Discount.java" afterPath="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/Discount.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/Employee.java" afterPath="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/Employee.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/Facility.java" afterPath="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/Facility.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/Food.java" afterPath="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/Food.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/Invoice.java" afterPath="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/Invoice.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/Payment.java" afterPath="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/Payment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/PaymentType.java" afterPath="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/PaymentType.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/Pet.java" afterPath="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/Pet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PetCare.iml" afterPath="$PROJECT_DIR$/PetCare.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/PetPicture.java" afterPath="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/PetPicture.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/Reservation.java" afterPath="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/Reservation.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/ServiceDefinition.java" afterPath="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/ServiceDefinition.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/ServiceExection.java" afterPath="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/ServiceExection.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/ServiceExecutionGeneral.java" afterPath="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/ServiceExecutionGeneral.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/ServiceExecutionPet.java" afterPath="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/ServiceExecutionPet.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/ServiceReservation.java" afterPath="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/ServiceReservation.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/ServiceReservationGeneral.java" afterPath="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/ServiceReservationGeneral.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/ServiceReservationPet.java" afterPath="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/ServiceReservationPet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/TransferData.java" afterPath="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/TransferData.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/Session.java" afterPath="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/Session.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/Vaccination.java" afterPath="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/Vaccination.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/VaccinationDefinition.java" afterPath="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/VaccinationDefinition.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/Weekday.java" afterPath="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/Weekday.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="PetCare.iws" />
@@ -65,11 +74,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ServiceReservationGeneral.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/ServiceReservationGeneral.java">
+      <file leaf-file-name="DatabaseManagerImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ch/avendia/petcare/datastore/hibernate/DatabaseManagerImpl.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+              <caret line="15" column="75" selection-start-line="15" selection-start-column="75" selection-end-line="15" selection-end-column="75" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BaseSessionBusiness.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ch/avendia/petcare/business/BaseSessionBusiness.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -77,11 +96,89 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ServiceReservationPet.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/ServiceReservationPet.java">
+      <file leaf-file-name="DataStoreService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ch/avendia/petcare/datastore/DataStoreService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+              <caret line="11" column="45" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BaseUserBusiness.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ch/avendia/petcare/business/BaseUserBusiness.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+              <folding>
+                <element signature="e#199#200#0" expanded="true" />
+                <element signature="e#231#232#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SessionService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ch/avendia/petcare/framework/security/session/SessionService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DatabaseManager.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ch/avendia/petcare/datastore/DatabaseManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SessionStoreImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ch/avendia/petcare/framework/security/session/datastore/hibernate/SessionStoreImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="31" column="64" selection-start-line="31" selection-start-column="64" selection-end-line="31" selection-end-column="64" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#743#752#0" expanded="true" />
+                <element signature="e#890#891#0" expanded="true" />
+                <element signature="e#965#966#0" expanded="true" />
+                <element signature="e#1255#1256#0" expanded="true" />
+                <element signature="e#1282#1283#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SessionStoreImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ch/avendia/petcare/framework/security/session/datastore/memcache/SessionStoreImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#380#381#0" expanded="true" />
+                <element signature="e#407#408#0" expanded="true" />
+                <element signature="e#457#458#0" expanded="true" />
+                <element signature="e#484#485#0" expanded="true" />
+                <element signature="e#537#538#0" expanded="true" />
+                <element signature="e#564#565#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SessionFactory.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ch/avendia/petcare/framework/security/session/SessionFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.5368421">
+              <caret line="23" column="39" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -89,85 +186,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Session.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/Session.java">
+      <file leaf-file-name="HibernateService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ch/avendia/petcare/datastore/hibernate/HibernateService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TransferData.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/TransferData.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Vaccination.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/Vaccination.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="13" column="44" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="VaccinationDefinition.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/VaccinationDefinition.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Client.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/Client.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Weekday.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/Weekday.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.25490198">
-              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ServiceReservation.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/ServiceReservation.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ServiceExection.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/ServiceExection.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+              <caret line="35" column="5" selection-start-line="12" selection-start-column="4" selection-end-line="35" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -178,9 +201,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
-        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -200,57 +223,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/services/definitions/UserService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/BankData.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/Position.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/Right.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/Person.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/InvoiceStatus.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/Service.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/PetServiceReservation.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/GeneralServiceReservation.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/GeneralServiceExecution.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/PetServiceExecution.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/ColorSchema.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/ReservationStatus.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/services/definitions/PersonService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/FacilityStatus.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/Contract.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/Gender.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/PaymentType.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/Weekday.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/Address.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/ServiceExecutionGeneral.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/logic/authentication/AuthenticationManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/framework/security/AuthenticationManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/TransferData.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/Client.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/Account.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/DatabaseEntity.java" />
         <option value="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/Country.java" />
         <option value="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/CompanySettings.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/BaseTenant.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/ServiceDefinition.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/Allergie.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/Food.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/Employee.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/Account.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/PetPicture.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/Animal.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/Payment.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/Facility.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/Discount.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/Invoice.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/OpeningHour.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/OpeningHours.java" />
         <option value="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/Company.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/Client.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/Pet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/Discount.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/Event.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/Invoice.java" />
         <option value="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/Reservation.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/ServiceExection.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/ServiceExecutionPet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/Vaccination.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/DatabaseTenantEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/Allergie.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/Animal.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/BankTransferData.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/Address.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/Employee.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/Facility.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/Food.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/Payment.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/PaymentType.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/Pet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/PetPicture.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/ServiceDefinition.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/ServiceExecution.java" />
         <option value="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/ServiceReservation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/ServiceExecutionGeneral.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/ServiceExecutionPet.java" />
         <option value="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/ServiceReservationGeneral.java" />
         <option value="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/ServiceReservationPet.java" />
         <option value="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/Session.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/TransferData.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/Vaccination.java" />
         <option value="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/VaccinationDefinition.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/framework/security/session/datastore/SessionStore.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/business/BaseBusinessClass.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/business/BaseBusiness.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/business/CompanyBusinessClass.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/business/BaseCompanyBusiness.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/business/UserBusinessClass.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/framework/security/session/datastore/SessionService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/framework/security/session/SessionService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/business/BaseSessionBusiness.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/framework/security/session/SessionStore.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/datastore/hibernate/DatabaseManagerImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/datastore/DatabaseManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/business/BaseUserBusiness.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/framework/security/session/datastore/memcache/SessionStoreImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/framework/security/session/datastore/hibernate/SessionStoreImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ch/avendia/petcare/framework/security/session/SessionFactory.java" />
       </list>
     </option>
   </component>
@@ -300,7 +323,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -477,7 +499,197 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="entities" />
+              <option name="myItemId" value="framework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PetCare" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PetCare" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="petcare" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="framework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="security" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PetCare" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PetCare" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="petcare" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="framework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="security" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="session" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PetCare" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PetCare" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="petcare" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="framework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="security" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="session" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="datastore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="memcache" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PetCare" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PetCare" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="petcare" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="framework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="security" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="session" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="datastore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hibernate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PetCare" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PetCare" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="petcare" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -521,6 +733,70 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="petcare" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="datastore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hibernate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PetCare" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PetCare" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="petcare" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="business" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PetCare" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PetCare" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="META-INF" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -528,6 +804,7 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -543,19 +820,25 @@
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/ch/avendia/petcare" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="FullScreen" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="Pet&#9;FILE&#9;file://C:/Users/Markus/Documents/Avendia/PetCare/src/main/java/ch/avendia/petcare/entities/PetPicture.java&#10;ServiceDe&#9;FILE&#9;file://C:/Users/Markus/Documents/Avendia/PetCare/src/main/java/ch/avendia/petcare/entities/ServiceDefinition.java&#10;sDefi&#9;FILE&#9;file://C:/Users/Markus/Documents/Avendia/PetCare/src/main/java/ch/avendia/petcare/entities/ServiceDefinition.java&#10;emplo&#9;FILE&#9;file://C:/Users/Markus/Documents/Avendia/PetCare/src/main/java/ch/avendia/petcare/entities/Employee.java&#10;client&#9;FILE&#9;file://C:/Users/Markus/Documents/Avendia/PetCare/src/main/java/ch/avendia/petcare/entities/Client.java&#10;service&#9;FILE&#9;file://C:/Users/Markus/Documents/Avendia/PetCare/src/main/java/ch/avendia/petcare/entities/Service.java" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="SearchEverywhereHistoryKey" value="ten&#9;FILE&#9;file://C:/Users/Markus/Documents/Avendia/PetCare/src/main/java/ch/avendia/petcare/entities/BaseTenant.java&#10;Fac&#9;FILE&#9;file://C:/Users/Markus/Documents/Avendia/PetCare/src/main/java/ch/avendia/petcare/entities/Facility.java&#10;we&#9;FILE&#9;file://C:/Users/Markus/Documents/Avendia/PetCare/src/main/java/ch/avendia/petcare/entities/Weekday.java&#10;Pet&#9;FILE&#9;file://C:/Users/Markus/Documents/Avendia/PetCare/src/main/java/ch/avendia/petcare/entities/PetPicture.java&#10;ServiceDe&#9;FILE&#9;file://C:/Users/Markus/Documents/Avendia/PetCare/src/main/java/ch/avendia/petcare/entities/ServiceDefinition.java&#10;sDefi&#9;FILE&#9;file://C:/Users/Markus/Documents/Avendia/PetCare/src/main/java/ch/avendia/petcare/entities/ServiceDefinition.java&#10;emplo&#9;FILE&#9;file://C:/Users/Markus/Documents/Avendia/PetCare/src/main/java/ch/avendia/petcare/entities/Employee.java&#10;client&#9;FILE&#9;file://C:/Users/Markus/Documents/Avendia/PetCare/src/main/java/ch/avendia/petcare/entities/Client.java&#10;service&#9;FILE&#9;file://C:/Users/Markus/Documents/Avendia/PetCare/src/main/java/ch/avendia/petcare/entities/Service.java" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="OverrideImplement.combined" value="true" />
+    <property name="OverrideImplement.overriding.sorted" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="ch.avendia.petcare.framework.security.session.datastore" />
+      <recent name="ch.avendia.petcare.datastore" />
       <recent name="ch.avendia.petcare.entities" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ch.avendia.petcare.framework.security.session.datastore.hibernate" />
+      <recent name="ch.avendia.petcare.business" />
       <recent name="ch.avendia.petcare.entities" />
     </key>
   </component>
-  <component name="RunManager" selected="OpenShift Deployment.PetCare OpenShift">
+  <component name="RunManager" selected="JBoss Server.JBoss 8.2.0.Final">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
@@ -975,15 +1258,17 @@
       <updated>1427894384068</updated>
       <workItem from="1427894395047" duration="2341000" />
       <workItem from="1427898461802" duration="8893000" />
-      <workItem from="1427912079752" duration="4779000" />
+      <workItem from="1427912079752" duration="9282000" />
+      <workItem from="1427921461810" duration="67000" />
+      <workItem from="1427921587040" duration="6427000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16013000" />
+    <option name="totallyTimeSpent" value="27010000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
+    <frame x="-9" y="-9" width="1938" height="1050" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1000,7 +1285,7 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24973261" sideWeight="0.4941957" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="JavaEE:App" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1043,112 +1328,18 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/ServiceDefinition.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/Animal.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+          <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/javax.ws.rs-api-2.0.jar!/javax/ws/rs/core/MediaType.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35365853">
-          <caret line="31" column="31" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/META-INF/application.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/BankTransferData.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch/avendia/petcare/services/endpoints/BasicService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch/avendia/petcare/services/endpoints/JaxRsActivator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch/avendia/petcare/services/endpoints/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="32" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/transfer/BasicResponseDTO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/transfer/Status.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/transfer/BasicRequestDTO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch/avendia/petcare/services/definitions/PersonService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/Gender.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/InvoiceStatus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="33" selection-end-column="28" />
           <folding />
         </state>
       </provider>
@@ -1156,17 +1347,15 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/BaseTenant.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="11" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/PetPicture.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/Client.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
+          <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
           <folding />
         </state>
       </provider>
@@ -1179,30 +1368,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/Account.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/Company.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/Allergie.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/Address.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
+          <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
           <folding />
         </state>
       </provider>
@@ -1210,25 +1379,67 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/CompanySettings.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/Country.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/DatabaseEntity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/Country.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/Address.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/Discount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/Employee.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/Event.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/Facility.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1244,75 +1455,15 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/Food.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/Animal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="26" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/Facility.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/Discount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="29" column="15" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/Company.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/Payment.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/Gender.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/PaymentType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/Invoice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="37" column="4" selection-start-line="35" selection-start-column="4" selection-end-line="37" selection-end-column="4" />
+          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
           <folding />
         </state>
       </provider>
@@ -1320,17 +1471,55 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/Pet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="60" column="17" selection-start-line="60" selection-start-column="17" selection-end-line="60" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/PaymentType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/Payment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/InvoiceStatus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/Invoice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/PetPicture.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/Reservation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1354,55 +1543,47 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/ServiceDefinition.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/ServiceExecutionGeneral.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="77" selection-start-line="12" selection-start-column="77" selection-end-line="12" selection-end-column="77" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="12" column="62" selection-start-line="12" selection-start-column="62" selection-end-line="12" selection-end-column="62" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/ServiceExecutionPet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="13" column="51" selection-start-line="13" selection-start-column="51" selection-end-line="13" selection-end-column="51" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/ServiceReservationGeneral.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/ServiceExecution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/ServiceReservation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/ServiceExection.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/ServiceReservationGeneral.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+          <caret line="13" column="66" selection-start-line="13" selection-start-column="66" selection-end-line="13" selection-end-column="66" />
           <folding />
         </state>
       </provider>
@@ -1410,41 +1591,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/ServiceReservationPet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/Session.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/TransferData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/Vaccination.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="44" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
+          <caret line="13" column="62" selection-start-line="13" selection-start-column="62" selection-end-line="13" selection-end-column="62" />
           <folding />
         </state>
       </provider>
@@ -1452,17 +1599,167 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/VaccinationDefinition.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/Vaccination.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="37" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/Session.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/Account.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch/avendia/petcare/entities/Weekday.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/avendia/petcare/business/BaseBusiness.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.25490198">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/avendia/petcare/business/BaseCompanyBusiness.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="69" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/avendia/petcare/framework/security/session/SessionManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/avendia/petcare/framework/security/session/SessionStore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="50" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/avendia/petcare/business/BaseSessionBusiness.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/avendia/petcare/framework/security/session/SessionService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/avendia/petcare/datastore/DataStoreService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="45" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/avendia/petcare/datastore/hibernate/HibernateService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="35" column="5" selection-start-line="12" selection-start-column="4" selection-end-line="35" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/avendia/petcare/datastore/hibernate/DatabaseManagerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="75" selection-start-line="15" selection-start-column="75" selection-end-line="15" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/avendia/petcare/datastore/DatabaseManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/avendia/petcare/business/BaseUserBusiness.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+          <folding>
+            <element signature="e#199#200#0" expanded="true" />
+            <element signature="e#231#232#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/avendia/petcare/framework/security/session/datastore/hibernate/SessionStoreImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="31" column="64" selection-start-line="31" selection-start-column="64" selection-end-line="31" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#743#752#0" expanded="true" />
+            <element signature="e#890#891#0" expanded="true" />
+            <element signature="e#965#966#0" expanded="true" />
+            <element signature="e#1255#1256#0" expanded="true" />
+            <element signature="e#1282#1283#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/avendia/petcare/framework/security/session/datastore/memcache/SessionStoreImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#380#381#0" expanded="true" />
+            <element signature="e#407#408#0" expanded="true" />
+            <element signature="e#457#458#0" expanded="true" />
+            <element signature="e#484#485#0" expanded="true" />
+            <element signature="e#537#538#0" expanded="true" />
+            <element signature="e#564#565#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/avendia/petcare/framework/security/session/SessionFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5368421">
+          <caret line="23" column="39" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

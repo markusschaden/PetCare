@@ -11,11 +11,7 @@ import java.util.Date;
  */
 @Entity
 @Data
-public class Payment implements Serializable {
-
-    @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    private Long id;
+public class Payment extends DatabaseEntity {
 
     @Enumerated(EnumType.STRING)
     private PaymentType paymentType;

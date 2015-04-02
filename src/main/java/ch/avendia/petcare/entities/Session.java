@@ -11,16 +11,13 @@ import java.util.Date;
  */
 @Entity
 @Data
-public class Session implements Serializable {
-
-    @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    private Long id;
+public class Session extends DatabaseEntity {
 
     @ManyToOne
     private Account account;
 
     private String sessionId;
 
+    @Temporal(TemporalType.TIMESTAMP)
     private Date validTill;
 }

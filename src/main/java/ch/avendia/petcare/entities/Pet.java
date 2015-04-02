@@ -11,11 +11,7 @@ import java.util.Date;
  */
 @Entity
 @Data
-public class Pet implements Serializable {
-
-    @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    private Long id;
+public class Pet extends DatabaseEntity {
 
     @ManyToOne
     private Animal animal;
