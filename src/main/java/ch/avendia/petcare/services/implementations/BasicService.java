@@ -1,4 +1,4 @@
-package ch.avendia.petcare.services.endpoints;
+package ch.avendia.petcare.services.implementations;
 
 /**
  * Created by Markus on 01.04.2015.

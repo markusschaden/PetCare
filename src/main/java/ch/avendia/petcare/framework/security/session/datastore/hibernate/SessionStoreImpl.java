@@ -26,12 +26,12 @@ public class SessionStoreImpl implements SessionStore {
         return sessionDatabaseManager.get(Session.class, sessionId);
     }
 
-    public Session addSession(Account account) {
+    public Session addSession(Session session) {
 
         SessionFactory sessionFactory = new SessionFactory();
-        Session session = sessionFactory.createSession(account);
+        Session newSession = sessionFactory.createSession(session.getAccount());
 
-        return sessionDatabaseManager.add(session);
+        return sessionDatabaseManager.add(newSession);
     }
 
     public Session updateSession(Session session) {

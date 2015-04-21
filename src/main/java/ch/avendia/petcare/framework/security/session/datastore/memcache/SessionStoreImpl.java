@@ -13,7 +13,7 @@ public class SessionStoreImpl implements SessionStore {
         return null;
     }
 
-    public Session addSession(Account account) {
+    public Session addSession(Session session) {
         return null;
     }
 

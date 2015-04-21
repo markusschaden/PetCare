@@ -41,6 +41,11 @@ public class Invoice extends DatabaseTenantEntity {
     @Temporal(TemporalType.TIMESTAMP)
     private Date paymentDue;
 
+    private Long discount;
+
+    @Enumerated(EnumType.STRING)
+    private DiscountType discountType;
+
     private long tax;
 
 }

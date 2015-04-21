@@ -5,5 +5,8 @@ package ch.avendia.petcare.business;
  */
 public abstract class BaseCompanyBusiness extends BaseSessionBusiness {
 
+    public BaseCompanyBusiness(String sessionId) {
+        super(sessionId);
+    }
 
 }

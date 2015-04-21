@@ -9,8 +9,7 @@ import ch.avendia.petcare.entities.Session;
 public interface SessionStore {
 
     public Session getSession(String sessionId);
-    public Session addSession(Account account);
-    public Session updateSession(Session session);
+    public Session addSession(Session session);
     public void removeSession(Session session);
 
 }

@@ -19,10 +19,6 @@ import java.io.Serializable;
 @Data
 public class Account extends DatabaseEntity {
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    private Long id;
-
     private String username;
     private String password;
     private String tenantId;

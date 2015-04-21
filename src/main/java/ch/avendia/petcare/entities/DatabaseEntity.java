@@ -1,5 +1,6 @@
 package ch.avendia.petcare.entities;
 
+import com.google.gson.Gson;
 import lombok.Data;
 
 import javax.persistence.GeneratedValue;
@@ -19,4 +20,10 @@ public abstract class DatabaseEntity implements Serializable {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
 
+
+    public static String objToJson(Object obj) {
+
+        Gson gson = new Gson();
+        return gson.toJson(obj);
+    }
 }
