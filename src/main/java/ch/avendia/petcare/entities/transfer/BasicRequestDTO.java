@@ -10,6 +10,7 @@ import lombok.Data;
 public class BasicRequestDTO<T extends DatabaseEntity> {
 
     private String sessionId;
+    private String token;
     private T data;
 
 }

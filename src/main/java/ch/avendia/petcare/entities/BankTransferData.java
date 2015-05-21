@@ -12,10 +12,6 @@ import java.io.Serializable;
 @Data
 public class BankTransferData extends DatabaseEntity {
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    private Long id;
-
     private String bankName;
 
     @Embedded

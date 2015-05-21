@@ -26,6 +26,7 @@ public class Company extends DatabaseEntity {
             mappedBy = "companies",
             targetEntity = Animal.class
     )
+    @OrderColumn
     private Animal[] animals;
 
     @OneToOne

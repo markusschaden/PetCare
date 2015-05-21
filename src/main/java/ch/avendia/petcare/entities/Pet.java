@@ -24,18 +24,22 @@ public class Pet extends DatabaseEntity {
     private Client owner;
 
     @OneToMany(mappedBy="pet")
+    @OrderColumn
     private PetPicture[] pictures;
 
     @Temporal(TemporalType.TIMESTAMP)
     private Date birthday;
 
     @OneToMany(mappedBy="pet")
+    @OrderColumn
     private Vaccination[] vaccinations;
 
     @OneToMany(mappedBy="pet")
+    @OrderColumn
     private Allergie[] allergies;
 
     @OneToMany(mappedBy="pet")
+    @OrderColumn
     private Food[] food;
 
     private String additionalInformation;
@@ -47,6 +51,7 @@ public class Pet extends DatabaseEntity {
             mappedBy = "pets",
             targetEntity = Facility.class
     )
+    @OrderColumn
     private Facility[] facilities;
 
     @ManyToMany(
@@ -54,6 +59,7 @@ public class Pet extends DatabaseEntity {
             mappedBy = "pets",
             targetEntity = Reservation.class
     )
+    @OrderColumn
     private Reservation[] reservations;
 
 

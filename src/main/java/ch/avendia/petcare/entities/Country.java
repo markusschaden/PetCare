@@ -15,9 +15,5 @@ import java.io.Serializable;
 @Data
 public class Country extends DatabaseEntity {
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    private Long id;
-
     public String name;
 }

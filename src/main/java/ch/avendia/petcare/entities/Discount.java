@@ -23,5 +23,6 @@ public class Discount extends DatabaseTenantEntity {
             mappedBy = "discounts",
             targetEntity = Invoice.class
     )
+    @OrderColumn
     private Invoice[] invoices;
 }

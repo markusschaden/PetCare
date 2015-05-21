@@ -7,6 +7,4 @@ public abstract class BaseBusiness {
 
 
 
-
-
 }

@@ -18,6 +18,8 @@ public class Session extends DatabaseEntity {
 
     private String sessionId;
 
+    private String token;
+
     @Temporal(TemporalType.TIMESTAMP)
     private Date validTill;
 }

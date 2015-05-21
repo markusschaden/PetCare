@@ -12,8 +12,9 @@ import javax.ws.rs.core.Response;
 
 @Path("user")
 @Produces("application/json")
-@Consumes({"application/xml","application/json"})
-public class UserService {
+@Consumes({"application/xml", "application/json"})
+public class UserService extends BasicService {
+
 
     @GET
     @Path("{action}/{id}")
@@ -25,6 +26,7 @@ public class UserService {
     @POST
     @Path("save/")
     public BasicResponseDTO saveUser(BasicRequestDTO<Client> u) {
+        check(u);
 
         BasicResponseDTO<Client> response = new BasicResponseDTO<Client>();
 

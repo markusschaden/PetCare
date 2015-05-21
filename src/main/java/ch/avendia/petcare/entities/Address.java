@@ -14,7 +14,7 @@ import java.io.Serializable;
 @Embeddable
 @Access(AccessType.PROPERTY)
 @Data
-public class Address extends DatabaseEntity {
+public class Address {
 
     @ManyToOne
     private Country country;

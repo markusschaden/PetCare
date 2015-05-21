@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="0" failures="0" name="ch.avendia.petcare.framework.security.session.SessionIdentifierGeneratorTest" time="0.015" errors="0" skipped="0">
+<testsuite tests="1" failures="0" name="ch.avendia.petcare.framework.security.session.SessionIdentifierGeneratorTest" time="0.418" errors="0" skipped="0">
   <properties>
-    <property name="idea.version" value="14.1.1"/>
+    <property name="skip.tests" value="true"/>
+    <property name="idea.version" value="14.1.2"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_20\jre\bin"/>
     <property name="java.vm.version" value="25.20-b23"/>
@@ -11,7 +12,7 @@
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
     <property name="file.encoding.pkg" value="sun.io"/>
-    <property name="idea.launcher.port" value="7537"/>
+    <property name="idea.launcher.port" value="7536"/>
     <property name="user.script" value=""/>
     <property name="user.country" value="CH"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
@@ -30,7 +31,7 @@
     <property name="os.name" value="Windows 8.1"/>
     <property name="classworlds.conf" value="C:\Program Files (x86)\JetBrains\IntelliJ IDEA 14.1.1\plugins\maven\lib\maven3\bin\m2.conf"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_20\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Ruby193\bin;C:\oraclexe\app\oracle\product\11.2.0\server\bin;;C:\Program Files (x86)\GtkSharp\2.12\\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Lenovo\Fingerprint Manager Pro\;C:\ProgramData\Lenovo\ReadyApps;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;C:\DEV\apache-maven-3.2.3\bin\;C:\cygwin\bin;C:\nodejs\;C:\Program Files (x86)\Git\cmd;C:\DEV\sonar-runner-2.4\bin;C:\Program Files (x86)\Windows Kits\8.1\Debuggers\x86;C:\Program Files\PostgreSQL\9.3\bin;C:\Users\Markus\Downloads\gtk+-bundle_3.6.4-20130921_win32\bin;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Program Files\GDAL;C:\Users\Markus\Downloads\bochs-2.6.7-win64;C:\Users\Markus\AppData\Roaming\npm;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_20\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Ruby193\bin;C:\oraclexe\app\oracle\product\11.2.0\server\bin;;C:\Program Files (x86)\GtkSharp\2.12\\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Lenovo\Fingerprint Manager Pro\;C:\ProgramData\Lenovo\ReadyApps;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;C:\DEV\apache-maven-3.2.3\bin\;C:\cygwin\bin;C:\nodejs\;C:\Program Files (x86)\Git\cmd;C:\DEV\sonar-runner-2.4\bin;C:\Program Files (x86)\Windows Kits\8.1\Debuggers\x86;C:\Program Files\PostgreSQL\9.3\bin;C:\Users\Markus\Downloads\gtk+-bundle_3.6.4-20130921_win32\bin;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Program Files\GDAL;C:\Users\Markus\Downloads\bochs-2.6.7-win64;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\Markus\AppData\Roaming\npm;C:\Users\Markus\AppData\Local\Code\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -46,7 +47,7 @@
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_20\jre"/>
-    <property name="sun.java.command" value="com.intellij.rt.execution.application.AppMain org.codehaus.classworlds.Launcher -Didea.version=14.1.1 install"/>
+    <property name="sun.java.command" value="com.intellij.rt.execution.application.AppMain org.codehaus.classworlds.Launcher -Didea.version=14.1.2 install -Dskip.tests=true"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="de"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -63,4 +64,5 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
+  <testcase classname="ch.avendia.petcare.framework.security.session.SessionIdentifierGeneratorTest" name="testSessionStore" time="0.403"/>
 </testsuite>

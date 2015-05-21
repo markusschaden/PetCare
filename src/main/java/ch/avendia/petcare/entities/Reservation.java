@@ -18,9 +18,11 @@ public class Reservation extends DatabaseTenantEntity {
 
     @ManyToMany(targetEntity = Pet.class, cascade = {CascadeType.PERSIST, CascadeType.MERGE})
     @JoinTable(name = "ReservationPet", joinColumns = @JoinColumn(name = "Reservation_ID"), inverseJoinColumns = @JoinColumn(name = "Pet_ID"))
+    @OrderColumn
     private Pet[] pets;
 
     @OneToMany(mappedBy = "reservation")
+    @OrderColumn
     private ServiceReservation[] serviceReservations;
 
     @Enumerated(EnumType.STRING)

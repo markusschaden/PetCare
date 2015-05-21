@@ -17,12 +17,15 @@ public class Facility extends DatabaseTenantEntity {
 
     @ManyToMany(targetEntity = Pet.class, cascade = {CascadeType.PERSIST, CascadeType.MERGE})
     @JoinTable(name = "FacilityPet", joinColumns = @JoinColumn(name = "Facility_ID"), inverseJoinColumns = @JoinColumn(name = "Pet_ID"))
+    @OrderColumn
     private Pet[] pets;
 
     @OneToMany(mappedBy = "facility")
+    @OrderColumn
     private ServiceReservation[] serviceReservations;
 
     @OneToMany(mappedBy = "facility")
+    @OrderColumn
     private ServiceExecution[] serviceExecutions;
 
     @OneToOne(cascade = CascadeType.ALL)

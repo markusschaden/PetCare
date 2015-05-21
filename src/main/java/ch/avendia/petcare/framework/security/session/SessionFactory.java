@@ -2,6 +2,7 @@ package ch.avendia.petcare.framework.security.session;
 
 import ch.avendia.petcare.entities.Account;
 import ch.avendia.petcare.entities.Session;
+import com.google.inject.Inject;
 
 import java.time.Instant;
 import java.time.LocalDate;
@@ -15,9 +16,12 @@ import java.util.UUID;
  */
 public class SessionFactory {
 
+    @Inject
+    private SessionIdentifierGenerator sig;
+
     public Session createSession(Account account) {
 
-        UUID sessionId = UUID.randomUUID();
+        String sessionId = sig.createWord(64);
         LocalDateTime current = LocalDateTime.now();
         current.plusDays(7);
         Instant instant = current.atZone(ZoneId.systemDefault()).toInstant();
@@ -25,7 +29,7 @@ public class SessionFactory {
 
         Session session = new Session();
         session.setAccount(account);
-        session.setSessionId(sessionId.toString());
+        session.setSessionId(sessionId);
         session.setValidTill(date);
 
 

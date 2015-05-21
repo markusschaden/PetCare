@@ -13,34 +13,35 @@ import java.util.Date;
 @Data
 public class Client extends Account {
 
-    /*@Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    private Long id;*/
-
     private String name;
     private String firstname;
 
     @Embedded
     private Address address;
 
-    private String phoneNumber;
+    @Embedded
+    private TelephoneNumber phoneNumber;
     private String email;
 
     @Temporal(TemporalType.TIMESTAMP)
     private Date birthday;
 
-    /*@OneToOne(mappedBy = "client")
-    private Account account;*/
+    @Enumerated(EnumType.STRING)
+    private Gender gender;
 
     @OneToMany(mappedBy = "owner")
+    @OrderColumn
     private Pet[] pets;
 
     @OneToMany(mappedBy = "client")
+    @OrderColumn
     private Facility[] facilities;
 
     @OneToMany(mappedBy = "client")
+    @OrderColumn
     private Invoice[] invoices;
 
     @OneToMany(mappedBy = "client")
+    @OrderColumn
     private Reservation[] reservations;
 }

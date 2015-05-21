@@ -18,6 +18,7 @@
 
     <listener>
         <listener-class>ch.avendia.petcare.framework.di.GuiceServletConfig</listener-class>
+        <listener-class>ch.avendia.petcare.framework.start.Bootstrap</listener-class>
     </listener>
 
 </web-app>

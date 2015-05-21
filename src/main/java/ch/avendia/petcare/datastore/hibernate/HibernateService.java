@@ -16,6 +16,8 @@ public class HibernateService {
 
     private HibernateService() {
 
+
+
         EntityManagerFactory emf = Persistence.createEntityManagerFactory("hibernate");
         emf.createEntityManager();
     }

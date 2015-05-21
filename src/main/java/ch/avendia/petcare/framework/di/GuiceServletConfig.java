@@ -1,5 +1,9 @@
 package ch.avendia.petcare.framework.di;
 
+import ch.avendia.petcare.framework.security.session.SessionService;
+import ch.avendia.petcare.framework.security.session.SessionServiceImpl;
+import ch.avendia.petcare.framework.security.session.SessionStorage;
+import ch.avendia.petcare.framework.security.session.datastore.memcache.SessionStorageImpl;
 import ch.avendia.petcare.services.implementations.UserService;
 import com.google.inject.Guice;
 import com.google.inject.Injector;
@@ -22,25 +26,7 @@ import java.util.Map;
 
     @Override
     protected Injector getInjector() {
-        return Guice.createInjector(new ServletModule() {
-
-            @Override
-            protected void configureServlets() {
-
-                bind(UserService.class).in(Singleton.class);
-
-                /* bind jackson converters for JAXB/JSON serialization */
-                bind(MessageBodyReader.class).to(JacksonJsonProvider.class);
-                bind(MessageBodyWriter.class).to(JacksonJsonProvider.class);
-                Map<String, String> initParams = new HashMap<String, String>();
-                initParams.put("com.sun.jersey.config.feature.Trace",
-                        "true");
-                initParams.put("com.sun.jersey.api.json.POJOMappingFeature", "true");
-
-                serve( "/rest/*" ).with( GuiceContainer.class, initParams );
-            }
-
-        });
+        return Guice.createInjector(new ServletInjector(),new ModuleInjector());
     }
 
 

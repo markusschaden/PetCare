@@ -7,9 +7,7 @@ import javax.persistence.Entity;
 /**
  * Created by Markus on 01.04.2015.
  */
-@Entity
-@Data
-public class PaymentType {
+public enum PaymentType {
 
-    private String name;
+    CASH, CARD;
 }

@@ -30,5 +30,6 @@ public class Account extends DatabaseEntity {
     private Employee employee;*/
 
     @OneToMany(mappedBy = "account")
+    @OrderColumn
     private Session[] sessions;
 }
